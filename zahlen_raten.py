@@ -68,7 +68,7 @@ while True:
                 except ValueError:
                     print("Falsche Eingabe. Bitte geben Sie eine Gleitkommazahl ein!")
 
-        if choice == "x":
+        if choice == 999:
             print("=== Spiel beendet ===")
             break
 
